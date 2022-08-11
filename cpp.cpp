@@ -29,6 +29,8 @@ int main()
         cin>>n>>x>>y;
         cout<<n-x+y<<endl;
         //shihab gadah
+        kire kmn asos valo ni????
+            
     }
     return 0;
 }
