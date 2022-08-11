@@ -21,33 +21,13 @@
 using namespace std;
 int main()
 {
-    int i,j,k,n,cnt,min,t,m;
+    int n,x,y;
+    int t,i,j,cnt;
     cin>>t;
     while(t--)
     {
-        cin>>n>>m;
-        string s[n];
-        for(i=0;i<n;i++)
-        {
-           cin>>s[i];
-        }
-        min=10000;
-        for(i=0;i<n;i++)
-        {  
-            for(j=i+1;j<n;j++)
-            {
-                cnt=0;
-                for(k=0;k<m;k++)
-                {
-                    cnt+=abs(s[i][k]-s[j][k]);
-                }
-                if(min>cnt)
-                {
-                    min=cnt;
-                }
-            }
-        }
-        cout<<min<<endl;
+        cin>>n>>x>>y;
+        cout<<n-x+y<<endl;
     }
     return 0;
 }
