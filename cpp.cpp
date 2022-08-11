@@ -28,6 +28,7 @@ int main()
     {
         cin>>n>>x>>y;
         cout<<n-x+y<<endl;
+        //shihab gadah
     }
     return 0;
 }
